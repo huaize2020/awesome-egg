@@ -13,7 +13,17 @@
 - [仓库](#仓库)
   - [框架](#框架)
   - [脚手架](#脚手架)
+  - [内置插件](#内置插件)
   - [插件](#插件)
+    - [参数校验](#参数校验)
+    - [路由](#路由)
+    - [数据库](#数据库)
+    - [缓存](#缓存)
+    - [Graphql](#graphql)
+    - [平台SDK](#平台sdk)
+    - [Tracer](#tracer)
+    - [日志](#日志)
+    - [其他](#其他)
 - [应用](#应用)
 
 ## 官方资源
@@ -65,7 +75,6 @@
 - [可能是最好的 JS Assert 库 - 皇帝的新衣](https://zhuanlan.zhihu.com/p/25956323)
 - [Node.js 中 source map 使用问题总结](https://zhuanlan.zhihu.com/p/26267678)
 
-
 ## 仓库
 ### 框架
 
@@ -74,11 +83,11 @@
 
 ### 脚手架
 
-- [egg-vue-webpack-boilerplate](https://github.com/hubcarl/egg-vue-webpack-boilerplate) - 基于egg-view-vue, egg-view-vue-ssr, egg-webpack, egg-webpack-vue插件的多页面和单页面服务器渲染同构工程骨架项目 ![](https://img.shields.io/github/stars/hubcarl/egg-vue-webpack-boilerplate.svg?style=social&label=Star)
-- [egg-react-webpack-boilerplate](https://github.com/hubcarl/egg-react-webpack-boilerplate) - 基于Egg + React + Webpack3/Webpack2 多页面和单页面服务器渲染同构工程骨架项目 ![](https://img.shields.io/github/stars/hubcarl/egg-react-webpack-boilerplate.svg?style=social&label=Star)
+- [egg-vue-webpack-boilerplate](https://github.com/hubcarl/egg-vue-webpack-boilerplate) - 基于egg-view-vue, egg-view-vue-ssr, egg-webpack, egg-webpack-vue插件的多页面和单页面服务器渲染同构工程骨架项目 ![](https://img.shields.io/github/stars/hubcarl/egg-vue-webpack-boilerplate.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/egg-vue-webpack-boilerplate.svg?style=flat-square)
+- [egg-react-webpack-boilerplate](https://github.com/hubcarl/egg-react-webpack-boilerplate) - 基于Egg + React + Webpack3/Webpack2 多页面和单页面服务器渲染同构工程骨架项目 ![](https://img.shields.io/github/stars/hubcarl/egg-react-webpack-boilerplate.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/egg-react-webpack-boilerplate.svg?style=flat-square)
 - [egg-ts-boilerplate](https://github.com/brickyang/egg-ts-boilerplate) - 用 TypeScript 写 Egg 应用 ![](https://img.shields.io/github/stars/brickyang/egg-ts-boilerplate.svg?style=social&label=Star)
 - [egg-react-mobx-ts-antd](https://github.com/tvrcgo/egg-react-mobx-ts-antd) - Start node with eggjs, react, mobx-react, typescript and ant design. ![](https://img.shields.io/github/stars/tvrcgo/egg-react-mobx-ts-antd.svg?style=social&label=Star)
-- [egg-boilerplate-empty](https://github.com/eggjs/egg-boilerplate-empty) - Boilerplate for egg simple project, as empty as possible ![](https://img.shields.io/github/stars/eggjs/egg-boilerplate-empty.svg?style=social&label=Star)
+- [egg-boilerplate-empty](https://github.com/eggjs/egg-boilerplate-empty) - Boilerplate for egg simple project, as empty as possible ![](https://img.shields.io/github/stars/eggjs/egg-boilerplate-empty.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/@eggjs/egg-boilerplate-ts.svg?style=flat-square)
 - [egg-boilerplate-simple](https://github.com/eggjs/egg-boilerplate-simple) - Boilerplate for egg simple project ![](https://img.shields.io/github/stars/eggjs/egg-boilerplate-simple.svg?style=social&label=Star)
 - [egg-boilerplate-plugin](https://github.com/eggjs/egg-boilerplate-plugin) - Boilerplate for egg plugin ![](https://img.shields.io/github/stars/eggjs/egg-boilerplate-plugin.svg?style=social&label=Star)
 - [egg-boilerplate-framework](https://github.com/eggjs/egg-boilerplate-framework) - Boilerplate for egg framework ![](https://img.shields.io/github/stars/eggjs/egg-boilerplate-framework.svg?style=social&label=Star)
@@ -86,40 +95,80 @@
 - [generator-eggjs](https://github.com/thonatos/generator-eggjs) - Yeoman generator for egg ![](https://img.shields.io/github/stars/thonatos/generator-eggjs.svg?style=social&label=Star)
 - [egg-mix](https://github.com/sinchang/egg-mix) - 基于 Laravel Mix 和 Egg 的后端渲染多页应用工程化脚手架 ![](https://img.shields.io/github/stars/sinchang/egg-mix.svg?style=social&label=Star)
 
+### [内置插件](https://eggjs.org/zh-cn/basics/plugin.html#%E6%8F%92%E4%BB%B6%E5%88%97%E8%A1%A8)
+
+- [egg-multipart](https://github.com/eggjs/egg-multipart) - 文件流式上传。 ![](https://img.shields.io/github/stars/eggjs/egg-multipart.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/egg-multipart.svg?style=flat-square)
+- [egg-security](https://github.com/eggjs/egg-security) - 安全。 ![](https://img.shields.io/github/stars/eggjs/egg-security.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/egg-security.svg?style=flat-square)
+- [egg-bin](https://github.com/eggjs/egg-bin) - Egg developer tool. ![](https://img.shields.io/github/stars/eggjs/egg-bin.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/egg-bin.svg?style=flat-square)
+- [egg-logger](https://github.com/eggjs/egg-logger) - Egg logger. ![](https://img.shields.io/github/stars/eggjs/egg-logger.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/egg-logger.svg?style=flat-square)
+- [egg-schedule](https://github.com/eggjs/egg-schedule) - 定时任务。 ![](https://img.shields.io/github/stars/eggjs/egg-schedule.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/egg-schedule.svg?style=flat-square)
+- [egg-onerror](https://github.com/eggjs/egg-onerror) - 统一异常处理。 ![](https://img.shields.io/github/stars/eggjs/egg-onerror.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/egg-onerror.svg?style=flat-square)
+- [egg-development](https://github.com/eggjs/egg-development) - 开发环境配置。 ![](https://img.shields.io/github/stars/eggjs/egg-development.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/egg-development.svg?style=flat-square)
+- [egg-logrotator](https://github.com/eggjs/egg-logrotator) - 日志切分。 ![](https://img.shields.io/github/stars/eggjs/egg-logrotator.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/egg-logrotator.svg?style=flat-square)
+- [egg-session](https://github.com/eggjs/egg-session) - Session 实现。 ![](https://img.shields.io/github/stars/eggjs/egg-session.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/egg-session.svg?style=flat-square)
+- [egg-view](https://github.com/eggjs/egg-view) - 模板引擎。 ![](https://img.shields.io/github/stars/eggjs/egg-view.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/egg-view.svg?style=flat-square)
+- [egg-i18n](https://github.com/eggjs/egg-i18n) - 多语言。 ![](https://img.shields.io/github/stars/eggjs/egg-i18n.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/egg-i18n.svg?style=flat-square)
+- [egg-watcher](https://github.com/eggjs/egg-watcher) - 文件和文件夹监控。 ![](https://img.shields.io/github/stars/eggjs/egg-watcher.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/egg-watcher.svg?style=flat-square)
+- [egg-jsonp](https://github.com/eggjs/egg-jsonp) - jsonp 支持。 ![](https://img.shields.io/github/stars/eggjs/egg-jsonp.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/egg-jsonp.svg?style=flat-square)
+
 ### 插件
 
-- [egg-alinode](https://github.com/eggjs/egg-alinode) - alinode plugin for egg https://node.console.aliyun.com ![](https://img.shields.io/github/stars/eggjs/egg-alinode.svg?style=social&label=Star)
-- [egg-aliyun-api-gateway](https://github.com/thonatos/egg-aliyun-api-gateway) - aliyun-api-gateway for eggjs ![](https://img.shields.io/github/stars/thonatos/egg-aliyun-api-gateway.svg?style=social&label=Star)
-- [egg-apigw-tracer](https://github.com/inlym/egg-apigw-tracer) - 适配 API 网关的 HTTP 请求示踪器，用于 Egg.js 框架 ![](https://img.shields.io/github/stars/inlym/egg-apigw-tracer.svg?style=social&label=Star)
-- [egg-bull](https://github.com/brickyang/egg-bull) - The fastest, most reliable, Redis-based queue for Egg.js ![](https://img.shields.io/github/stars/brickyang/egg-bull.svg?style=social&label=Star)
-- [egg-cockroach](https://github.com/Txiaozhe/egg-cockroach) - CockroachDB 的 eggjs 插件 ![](https://img.shields.io/github/stars/Txiaozhe/egg-cockroach.svg?style=social&label=Star)
-- [egg-datahub](https://github.com/macacajs/egg-datahub) - Macaca [DataHub](//github.com/macacajs/macaca-datahub) plugin for Egg.js ![](https://img.shields.io/github/stars/macacajs/egg-datahub.svg?style=social&label=Star)
-- [egg-dingtalk](https://github.com/eggjs/egg-dingtalk) - dingtalk plugin for egg ![](https://img.shields.io/github/stars/eggjs/egg-dingtalk.svg?style=social&label=Star)
-- [egg-downloader](https://github.com/zzzs/egg-downloader) - download file plugin for egg ![](https://img.shields.io/github/stars/zzzs/egg-downloader.svg?style=social&label=Star)
-- [egg-graphql](https://github.com/eggjs/egg-graphql) - Graphql for Egg.js ![](https://img.shields.io/github/stars/eggjs/egg-graphql.svg?style=social&label=Star)
-- [egg-grpc](https://github.com/eggjs/egg-grpc) - grpc plugin for egg ![](https://img.shields.io/github/stars/eggjs/egg-grpc.svg?style=social&label=Star)
-- [egg-leancloud](https://github.com/eggjs/egg-leancloud) - leancloud plugin for Egg.js ![](https://img.shields.io/github/stars/eggjs/egg-leancloud.svg?style=social&label=Star)
-- [egg-loopback](https://github.com/bqxu/egg-loopback) - Loopback plugin for egg (nosql for mysql,mongoo,redis,Oracle,PostgreSQL..) ![](https://img.shields.io/github/stars/bqxu/egg-loopback.svg?style=social&label=Star)
-- [egg-mongoose](https://github.com/eggjs/egg-mongoose) - mongoose plugin for egg ![](https://img.shields.io/github/stars/eggjs/egg-mongoose.svg?style=social&label=Star)
-- [egg-mongo-native](https://github.com/brickyang/egg-mongo-native) - The native MongoDB driver for Egg.js ![](https://img.shields.io/github/stars/brickyang/egg-mongo-native.svg?style=social&label=Star)
-- [egg-neo4j](https://github.com/cemremengu/egg-neo4j) - Neo4j plugin for egg framework ![](https://img.shields.io/github/stars/cemremengu/egg-neo4j.svg?style=social&label=Star)
-- [egg-oss](https://github.com/eggjs/egg-oss) - aliyun oss plugin for egg ![](https://img.shields.io/github/stars/eggjs/egg-oss.svg?style=social&label=Star)
-- [egg-rbac](https://github.com/lidianhao123/egg-rbac) - Role Based Access Control for eggjs (now support RBAC0 level) ![](https://img.shields.io/github/stars/lidianhao123/egg-rbac.svg?style=social&label=Star)
-- [egg-redis](https://github.com/eggjs/egg-redis) - redis plugin for egg ![](https://img.shields.io/github/stars/eggjs/egg-redis.svg?style=social&label=Star)
-- [egg-rest](https://github.com/eggjs/egg-rest) - Restful API plugin for egg ![](https://img.shields.io/github/stars/eggjs/egg-rest.svg?style=social&label=Star)
-- [egg-router-group](https://github.com/zzzs/egg-router-group) - have the ability to route group operations for egg ![](https://img.shields.io/github/stars/zzzs/egg-router-group.svg?style=social&label=Star)
-- [egg-router-plus](https://github.com/eggjs/egg-router-plus) - The missing router feature for eggjs ![](https://img.shields.io/github/stars/eggjs/egg-router-plus.svg?style=social&label=Star)
-- [egg-sequelize](https://github.com/eggjs/egg-sequelize) - Sequelize for Egg.js ![](https://img.shields.io/github/stars/eggjs/egg-sequelize.svg?style=social&label=Star)
-- [egg-session-redis](https://github.com/eggjs/egg-session-redis) - redis store for egg session ![](https://img.shields.io/github/stars/eggjs/egg-session-redis.svg?style=social&label=Star)
-- [egg-socket.io](https://github.com/eggjs/egg-socket.io) - egg plugin for socket.io ![](https://img.shields.io/github/stars/eggjs/egg-socket.io.svg?style=social&label=Star)
-- [egg-tracer](https://github.com/eggjs/egg-tracer) - tracer plugin for egg ![](https://img.shields.io/github/stars/eggjs/egg-tracer.svg?style=social&label=Star)
-- [egg-userrole](https://github.com/eggjs/egg-userrole) - user role plugin for egg ![](https://img.shields.io/github/stars/eggjs/egg-userrole.svg?style=social&label=Star)
+#### 参数校验
+
 - [egg-valid](https://github.com/hexindai/egg-valid) - another validate plugin for egg ![](https://img.shields.io/github/stars/hexindai/egg-valid.svg?style=social&label=Star)
 - [egg-validate](https://github.com/eggjs/egg-validate) - validate plugin for egg ![](https://img.shields.io/github/stars/eggjs/egg-validate.svg?style=social&label=Star)
-- [egg-weapp-sdk](https://github.com/seasonstar/egg-weapp-sdk) - Egg的微信小程序登录会话管理SDK ![](https://img.shields.io/github/stars/seasonstar/egg-weapp-sdk.svg?style=social&label=Star)
-- [egg-wechat-api](https://github.com/thonatos/egg-wechat-api) - WechatApi for egg ![](https://img.shields.io/github/stars/thonatos/egg-wechat-api.svg?style=social&label=Star)
-- [egg-zookeeper](https://github.com/eggjs/egg-zookeeper) - zookeeper plugin for egg ![](https://img.shields.io/github/stars/eggjs/egg-zookeeper.svg?style=social&label=Star)
-- [egg-hashids](https://github.com/weihongyu12/egg-hashids) - generate a short unique ID from the integer for eg ![](https://img.shields.io/github/stars/weihongyu12/egg-hashids.svg?style=social&label=Star)
+
+#### 路由
+
+- [egg-router-plus](https://github.com/eggjs/egg-router-plus) - The missing router feature for eggjs ![](https://img.shields.io/github/stars/eggjs/egg-router-plus.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/egg-router-plus.svg?style=flat-square)
+- [egg-rest](https://github.com/eggjs/egg-rest) - Restful API plugin for egg ![](https://img.shields.io/github/stars/eggjs/egg-rest.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/egg-rest.svg?style=flat-square)
+- [egg-router-group](https://github.com/zzzs/egg-router-group) - have the ability to route group operations for egg ![](https://img.shields.io/github/stars/zzzs/egg-router-group.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/egg-router-group.svg?style=flat-square)
+
+#### 数据库
+
+- [egg-sequelize](https://github.com/eggjs/egg-sequelize) - Sequelize for Egg.js. ![](https://img.shields.io/github/stars/eggjs/egg-sequelize.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/egg-sequelize.svg?style=flat-square)
+- [egg-mongoose](https://github.com/eggjs/egg-mongoose) - mongoose plugin for egg ![](https://img.shields.io/github/stars/eggjs/egg-mongoose.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/egg-mongoose.svg?style=flat-square)
+- [egg-mongo-native](https://github.com/brickyang/egg-mongo-native) - The native MongoDB driver for Egg.js ![](https://img.shields.io/github/stars/brickyang/egg-mongo-native.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/egg-mongo-native.svg?style=flat-square)
+
+#### 缓存
+
+- [egg-redis](https://github.com/eggjs/egg-redis) - redis plugin for egg ![](https://img.shields.io/github/stars/eggjs/egg-redis.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/egg-redis.svg?style=flat-square)
+- [egg-session-redis](https://github.com/eggjs/egg-session-redis) - redis store for egg session ![](https://img.shields.io/github/stars/eggjs/egg-session-redis.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/egg-session-redis.svg?style=flat-square)
+
+#### Graphql
+
+- [egg-graphql](https://github.com/eggjs/egg-graphql) - Graphql for Egg.js ![](https://img.shields.io/github/stars/eggjs/egg-graphql.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/egg-graphql.svg?style=flat-square)
+
+#### 平台SDK
+
+- [egg-weapp-sdk](https://github.com/seasonstar/egg-weapp-sdk) - Egg的微信小程序登录会话管理SDK ![](https://img.shields.io/github/stars/seasonstar/egg-weapp-sdk.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/egg-weapp-sdk.svg?style=flat-square)
+- [egg-wechat-api](https://github.com/thonatos/egg-wechat-api) - WechatApi for egg ![](https://img.shields.io/github/stars/thonatos/egg-wechat-api.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/egg-wechat-api.svg?style=flat-square)
+- [egg-dingtalk](https://github.com/eggjs/egg-dingtalk) - dingtalk plugin for egg ![](https://img.shields.io/github/stars/eggjs/egg-dingtalk.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/egg-dingtalk.svg?style=flat-square)
+- [egg-datahub](https://github.com/macacajs/egg-datahub) - Macaca [DataHub](//github.com/macacajs/macaca-datahub) plugin for Egg.js ![](https://img.shields.io/github/stars/macacajs/egg-datahub.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/egg-datahub.svg?style=flat-square)
+- [egg-leancloud](https://github.com/eggjs/egg-leancloud) - leancloud plugin for Egg.js ![](https://img.shields.io/github/stars/eggjs/egg-leancloud.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/egg-leancloud.svg?style=flat-square)
+- [egg-aliyun-api-gateway](https://github.com/thonatos/egg-aliyun-api-gateway) - aliyun-api-gateway for eggjs ![](https://img.shields.io/github/stars/thonatos/egg-aliyun-api-gateway.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/egg-aliyun-api-gateway.svg?style=flat-square)
+
+#### Tracer
+
+- [egg-apigw-tracer](https://github.com/inlym/egg-apigw-tracer) - 适配 API 网关的 HTTP 请求示踪器，用于 Egg.js 框架. ![](https://img.shields.io/github/stars/inlym/egg-apigw-tracer.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/egg-apigw-tracer.svg?style=flat-square)
+- [egg-tracer](https://github.com/eggjs/egg-tracer) - tracer plugin for egg. ![](https://img.shields.io/github/stars/eggjs/egg-tracer.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/egg-tracer.svg?style=flat-square)
+
+#### 日志
+
+- [egg-logview](https://github.com/eggjs/egg-logview) - 为开发环境提供一个日志查看器。 ![](https://img.shields.io/github/stars/eggjs/egg-logview.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/egg-logview.svg?style=flat-square)
+- [egg-neo4j](https://github.com/cemremengu/egg-neo4j) - Neo4j plugin for egg framework ![](https://img.shields.io/github/stars/cemremengu/egg-neo4j.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/egg-neo4j.svg?style=flat-square)
+
+#### 其他
+
+- [egg-socket.io](https://github.com/eggjs/egg-socket.io) - egg plugin for socket.io ![](https://img.shields.io/github/stars/eggjs/egg-socket.io.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/egg-socket.io.svg?style=flat-square)
+- [egg-grpc](https://github.com/eggjs/egg-grpc) - grpc plugin for egg ![](https://img.shields.io/github/stars/eggjs/egg-grpc.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/egg-grpc.svg?style=flat-square)
+- [egg-alinode](https://github.com/eggjs/egg-alinode) - alinode plugin for egg https://node.console.aliyun.com ![](https://img.shields.io/github/stars/eggjs/egg-alinode.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/egg-alinode.svg?style=flat-square)
+- [egg-bull](https://github.com/brickyang/egg-bull) - The fastest, most reliable, Redis-based queue for Egg.js ![](https://img.shields.io/github/stars/brickyang/egg-bull.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/egg-bull.svg?style=flat-square)
+- [egg-userrole](https://github.com/eggjs/egg-userrole) - user role plugin for egg ![](https://img.shields.io/github/stars/eggjs/egg-userrole.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/egg-userrole.svg?style=flat-square)
+- [egg-oss](https://github.com/eggjs/egg-oss) - aliyun oss plugin for egg ![](https://img.shields.io/github/stars/eggjs/egg-oss.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/egg-oss.svg?style=flat-square)
+- [egg-rbac](https://github.com/lidianhao123/egg-rbac) - Role Based Access Control for eggjs (now support RBAC0 level) ![](https://img.shields.io/github/stars/lidianhao123/egg-rbac.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/egg-rbac.svg?style=flat-square)
+- [egg-zookeeper](https://github.com/eggjs/egg-zookeeper) - zookeeper plugin for egg ![](https://img.shields.io/github/stars/eggjs/egg-zookeeper.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/egg-zookeeper.svg?style=flat-square)
+- [egg-downloader](https://github.com/zzzs/egg-downloader) - download file plugin for egg ![](https://img.shields.io/github/stars/zzzs/egg-downloader.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/egg-downloader.svg?style=flat-square)
 
 ## 应用
 
