@@ -20,6 +20,7 @@
     - [数据库](#数据库)
     - [缓存](#缓存)
     - [Graphql](#graphql)
+    - [授权/鉴权](#授权鉴权)
     - [平台SDK](#平台sdk)
     - [Tracer](#tracer)
     - [日志](#日志)
@@ -101,7 +102,6 @@
 - [egg-security](https://github.com/eggjs/egg-security) - 安全。 ![](https://img.shields.io/github/stars/eggjs/egg-security.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/egg-security.svg?style=flat-square)
 - [egg-bin](https://github.com/eggjs/egg-bin) - Egg developer tool. ![](https://img.shields.io/github/stars/eggjs/egg-bin.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/egg-bin.svg?style=flat-square)
 - [egg-logger](https://github.com/eggjs/egg-logger) - Egg logger. ![](https://img.shields.io/github/stars/eggjs/egg-logger.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/egg-logger.svg?style=flat-square)
-- [egg-static](https://github.com/eggjs/egg-static) - 静态服务器插件。 ![](https://img.shields.io/github/stars/eggjs/egg-static.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/egg-static.svg?style=flat-square)
 - [egg-schedule](https://github.com/eggjs/egg-schedule) - 定时任务。 ![](https://img.shields.io/github/stars/eggjs/egg-schedule.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/egg-schedule.svg?style=flat-square)
 - [egg-onerror](https://github.com/eggjs/egg-onerror) - 统一异常处理。 ![](https://img.shields.io/github/stars/eggjs/egg-onerror.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/egg-onerror.svg?style=flat-square)
 - [egg-development](https://github.com/eggjs/egg-development) - 开发环境配置。 ![](https://img.shields.io/github/stars/eggjs/egg-development.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/egg-development.svg?style=flat-square)
@@ -116,8 +116,8 @@
 
 #### 参数校验
 
-- [egg-valid](https://github.com/hexindai/egg-valid) - another validate plugin for egg ![](https://img.shields.io/github/stars/hexindai/egg-valid.svg?style=social&label=Star)
-- [egg-validate](https://github.com/eggjs/egg-validate) - validate plugin for egg ![](https://img.shields.io/github/stars/eggjs/egg-validate.svg?style=social&label=Star)
+- [egg-validate](https://github.com/eggjs/egg-validate) - validate plugin for egg ![](https://img.shields.io/github/stars/eggjs/egg-validate.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/egg-validate.svg?style=flat-square)
+- [egg-valid](https://github.com/hexindai/egg-valid) - another validate plugin for egg ![](https://img.shields.io/github/stars/hexindai/egg-valid.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/egg-valid.svg?style=flat-square)
 
 #### 路由
 
@@ -139,6 +139,11 @@
 #### Graphql
 
 - [egg-graphql](https://github.com/eggjs/egg-graphql) - Graphql for Egg.js ![](https://img.shields.io/github/stars/eggjs/egg-graphql.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/egg-graphql.svg?style=flat-square)
+
+#### 授权/鉴权
+
+- [egg-userrole](https://github.com/eggjs/egg-userrole) - user role plugin for egg ![](https://img.shields.io/github/stars/eggjs/egg-userrole.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/egg-userrole.svg?style=flat-square)
+- [egg-rbac](https://github.com/lidianhao123/egg-rbac) - Role Based Access Control for eggjs (now support RBAC0 level) ![](https://img.shields.io/github/stars/lidianhao123/egg-rbac.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/egg-rbac.svg?style=flat-square)
 
 #### 平台SDK
 
@@ -165,9 +170,7 @@
 - [egg-grpc](https://github.com/eggjs/egg-grpc) - grpc plugin for egg ![](https://img.shields.io/github/stars/eggjs/egg-grpc.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/egg-grpc.svg?style=flat-square)
 - [egg-alinode](https://github.com/eggjs/egg-alinode) - alinode plugin for egg https://node.console.aliyun.com ![](https://img.shields.io/github/stars/eggjs/egg-alinode.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/egg-alinode.svg?style=flat-square)
 - [egg-bull](https://github.com/brickyang/egg-bull) - The fastest, most reliable, Redis-based queue for Egg.js ![](https://img.shields.io/github/stars/brickyang/egg-bull.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/egg-bull.svg?style=flat-square)
-- [egg-userrole](https://github.com/eggjs/egg-userrole) - user role plugin for egg ![](https://img.shields.io/github/stars/eggjs/egg-userrole.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/egg-userrole.svg?style=flat-square)
 - [egg-oss](https://github.com/eggjs/egg-oss) - aliyun oss plugin for egg ![](https://img.shields.io/github/stars/eggjs/egg-oss.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/egg-oss.svg?style=flat-square)
-- [egg-rbac](https://github.com/lidianhao123/egg-rbac) - Role Based Access Control for eggjs (now support RBAC0 level) ![](https://img.shields.io/github/stars/lidianhao123/egg-rbac.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/egg-rbac.svg?style=flat-square)
 - [egg-zookeeper](https://github.com/eggjs/egg-zookeeper) - zookeeper plugin for egg ![](https://img.shields.io/github/stars/eggjs/egg-zookeeper.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/egg-zookeeper.svg?style=flat-square)
 - [egg-downloader](https://github.com/zzzs/egg-downloader) - download file plugin for egg ![](https://img.shields.io/github/stars/zzzs/egg-downloader.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/egg-downloader.svg?style=flat-square)
 
