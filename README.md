@@ -2,6 +2,7 @@
 > - [awesome-koa](https://github.com/huaize2020/awesome-koa)
 > - [awesome-nodejs](https://github.com/huaize2020/awesome-nodejs)
 > - [awesome-frontend](https://github.com/huaize2020/awesome-frontend)
+> - [awesome-react](https://github.com/huaize2020/awesome-react)
 
 ## 目录
 
