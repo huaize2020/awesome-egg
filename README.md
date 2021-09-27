@@ -141,6 +141,7 @@
 
 - [egg-redis](https://github.com/eggjs/egg-redis) - redis plugin for egg ![](https://img.shields.io/github/stars/eggjs/egg-redis.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/egg-redis.svg?style=flat-square)
 - [egg-session-redis](https://github.com/eggjs/egg-session-redis) - redis store for egg session ![](https://img.shields.io/github/stars/eggjs/egg-session-redis.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/egg-session-redis.svg?style=flat-square)
+- [egg-etag](https://github.com/eggjs/egg-etag) - Etag plugin for egg application. ![](https://img.shields.io/github/stars/eggjs/egg-etag.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/egg-etag.svg?style=flat-square)
 
 #### Graphql
 
@@ -151,6 +152,7 @@
 - [egg-cors](https://github.com/eggjs/egg-cors) - CORS plugin for egg. ![](https://img.shields.io/github/stars/eggjs/egg-cors.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/egg-cors.svg?style=flat-square)
 - [egg-passport](https://github.com/eggjs/egg-passport) - Passport plugin for egg. ![](https://img.shields.io/github/stars/eggjs/egg-passport.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/egg-passport.svg?style=flat-square)
 - [egg-userrole](https://github.com/eggjs/egg-userrole) - user role plugin for egg ![](https://img.shields.io/github/stars/eggjs/egg-userrole.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/egg-userrole.svg?style=flat-square)
+- [egg-cancan](https://github.com/eggjs/egg-cancan) - Cancancan like authorization plugin for Egg.js. ![](https://img.shields.io/github/stars/eggjs/egg-cancan.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/egg-cancan.svg?style=flat-square)
 - [egg-rbac](https://github.com/lidianhao123/egg-rbac) - Role Based Access Control for eggjs (now support RBAC0 level) ![](https://img.shields.io/github/stars/lidianhao123/egg-rbac.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/egg-rbac.svg?style=flat-square)
 
 #### 平台SDK
