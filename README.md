@@ -23,6 +23,7 @@
   - [插件](#插件)
     - [参数校验](#参数校验)
     - [路由](#路由)
+    - [视图](#视图)
     - [数据库](#数据库)
     - [缓存](#缓存)
     - [Graphql](#graphql)
@@ -129,6 +130,12 @@
 - [egg-router-plus](https://github.com/eggjs/egg-router-plus) - The missing router feature for eggjs ![](https://img.shields.io/github/stars/eggjs/egg-router-plus.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/egg-router-plus.svg?style=flat-square)
 - [egg-rest](https://github.com/eggjs/egg-rest) - Restful API plugin for egg ![](https://img.shields.io/github/stars/eggjs/egg-rest.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/egg-rest.svg?style=flat-square)
 - [egg-router-group](https://github.com/zzzs/egg-router-group) - have the ability to route group operations for egg ![](https://img.shields.io/github/stars/zzzs/egg-router-group.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/egg-router-group.svg?style=flat-square)
+
+#### 视图
+
+- [egg-view-nunjucks](https://github.com/eggjs/egg-view-nunjucks) - Nunjucks view plugin for egg ![](https://img.shields.io/github/stars/eggjs/egg-view-nunjucks.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/egg-view-nunjucks.svg?style=flat-square)
+- [egg-view-ejs](https://github.com/eggjs/egg-view-ejs) - Egg view plugin for ejs. ![](https://img.shields.io/github/stars/eggjs/egg-view-ejs.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/egg-view-ejs.svg?style=flat-square)
+- [egg-view-handlebars](https://github.com/eggjs/egg-view-handlebars) - Egg view plugin for handlebars ![](https://img.shields.io/github/stars/eggjs/egg-view-handlebars.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/egg-view-handlebars.svg?style=flat-square)
 
 #### 数据库
 
