@@ -103,6 +103,7 @@
 ### [内置插件](https://eggjs.org/zh-cn/basics/plugin.html#%E6%8F%92%E4%BB%B6%E5%88%97%E8%A1%A8)
 
 - [egg-security](https://github.com/eggjs/egg-security) - 安全。 ![](https://img.shields.io/github/stars/eggjs/egg-security.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/egg-security.svg?style=flat-square)
+- [egg-cluster](https://github.com/eggjs/egg-cluster) - 集群管理。 ![](https://img.shields.io/github/stars/eggjs/egg-cluster.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/egg-cluster.svg?style=flat-square)
 - [egg-bin](https://github.com/eggjs/egg-bin) - Egg开发工具. ![](https://img.shields.io/github/stars/eggjs/egg-bin.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/egg-bin.svg?style=flat-square)
 - [egg-multipart](https://github.com/eggjs/egg-multipart) - 文件流式上传。 ![](https://img.shields.io/github/stars/eggjs/egg-multipart.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/egg-multipart.svg?style=flat-square)
 - [egg-mock](https://github.com/eggjs/egg-mock) - 用于Egg测试的Mock库。 ![](https://img.shields.io/github/stars/eggjs/egg-mock.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/egg-mock.svg?style=flat-square)
@@ -115,6 +116,7 @@
 - [egg-session](https://github.com/eggjs/egg-session) - Session 实现。 ![](https://img.shields.io/github/stars/eggjs/egg-session.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/egg-session.svg?style=flat-square)
 - [egg-view](https://github.com/eggjs/egg-view) - 模板引擎。 ![](https://img.shields.io/github/stars/eggjs/egg-view.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/egg-view.svg?style=flat-square)
 - [egg-i18n](https://github.com/eggjs/egg-i18n) - 多语言。 ![](https://img.shields.io/github/stars/eggjs/egg-i18n.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/egg-i18n.svg?style=flat-square)
+- [egg-cookies](https://github.com/eggjs/egg-cookies) - Cookie模块。 ![](https://img.shields.io/github/stars/eggjs/egg-cookies.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/egg-cookies.svg?style=flat-square)
 - [egg-watcher](https://github.com/eggjs/egg-watcher) - 文件和文件夹监控。 ![](https://img.shields.io/github/stars/eggjs/egg-watcher.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/egg-watcher.svg?style=flat-square)
 - [egg-jsonp](https://github.com/eggjs/egg-jsonp) - jsonp 支持。 ![](https://img.shields.io/github/stars/eggjs/egg-jsonp.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/egg-jsonp.svg?style=flat-square)
 
