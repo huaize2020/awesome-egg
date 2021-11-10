@@ -198,6 +198,7 @@
 #### 其他
 
 - [egg-socket.io](https://github.com/eggjs/egg-socket.io) - egg plugin for socket.io ![](https://img.shields.io/github/stars/eggjs/egg-socket.io.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/egg-socket.io.svg?style=flat-square)
+- [egg-init](https://github.com/eggjs/egg-init) - Init egg app helper tools. ![](https://img.shields.io/github/stars/eggjs/egg-init.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/egg-init.svg?style=flat-square)
 - [egg-grpc](https://github.com/eggjs/egg-grpc) - grpc plugin for egg ![](https://img.shields.io/github/stars/eggjs/egg-grpc.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/egg-grpc.svg?style=flat-square)
 - [egg-alinode](https://github.com/eggjs/egg-alinode) - alinode plugin for egg https://node.console.aliyun.com ![](https://img.shields.io/github/stars/eggjs/egg-alinode.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/egg-alinode.svg?style=flat-square)
 - [egg-bull](https://github.com/brickyang/egg-bull) - The fastest, most reliable, Redis-based queue for Egg.js ![](https://img.shields.io/github/stars/brickyang/egg-bull.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/egg-bull.svg?style=flat-square)
