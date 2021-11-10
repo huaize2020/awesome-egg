@@ -202,6 +202,7 @@
 - [egg-restapi-module-tool](https://github.com/fomenyesu/egg-restapi-module-tool) - a example of eggjs, react, antd, dva, webpack, mysql, restful api and other stuff made it work... ![](https://img.shields.io/github/stars/fomenyesu/egg-restapi-module-tool.svg?style=social&label=Star)
 - [egg-ant-design-pro](https://github.com/eggjs/egg-ant-design-pro) Egg love Ant Design Pro ![](https://img.shields.io/github/stars/eggjs/egg-ant-design-pro.svg?style=social&label=Star)
 - [egg-commerce](https://github.com/sfyr111/egg-commerce) - 使用egg + sequelizejs 搭建的电商平台，集成支付宝面对面支付、手机唤醒客户端支付 ![](https://img.shields.io/github/stars/sfyr111/egg-commerce.svg?style=social&label=Star)
+- [egg-beehive](https://github.com/Imfdj/egg-beehive) - 基于Vue+Egg.js的JS全栈项目。动态菜单，RBAC权限模型，Websocket实现站内信。![](https://img.shields.io/github/stars/Imfdj/egg-beehive.svg?style=social&label=Star)
 - [egg-mongodb-example](https://github.com/fomenyesu/egg-mongodb-example) - a example of eggjs, mongodb, restful api and other stuff made it work... ![](https://img.shields.io/github/stars/fomenyesu/egg-mongodb-example.svg?style=social&label=Star)
 - [hamkd](https://github.com/malun666/hamkd) - 寒门知识社区官网源码 ![](https://img.shields.io/github/stars/malun666/hamkd.svg?style=social&label=Star)
 - [mtime](https://github.com/OrangeXC/mtime) - A MVC mTime websit build with egg ![](https://img.shields.io/github/stars/OrangeXC/mtime.svg?style=social&label=Star)
