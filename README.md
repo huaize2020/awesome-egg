@@ -31,6 +31,8 @@
     - [平台SDK](#平台sdk)
     - [Tracer](#tracer)
     - [日志](#日志)
+    - [文档](#文档)
+    - [CI/CD/部署](#cicd部署)
     - [其他](#其他)
 - [应用](#应用)
 
@@ -158,6 +160,7 @@
 
 #### 授权/鉴权/安全
 
+- [egg-jwt](https://github.com/okoala/egg-jwt) - JWT authentication plugin for egg. ![](https://img.shields.io/github/stars/okoala/egg-jwt.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/egg-jwt.svg?style=flat-square)
 - [egg-cors](https://github.com/eggjs/egg-cors) - CORS plugin for egg. ![](https://img.shields.io/github/stars/eggjs/egg-cors.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/egg-cors.svg?style=flat-square)
 - [egg-passport](https://github.com/eggjs/egg-passport) - Passport plugin for egg. ![](https://img.shields.io/github/stars/eggjs/egg-passport.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/egg-passport.svg?style=flat-square)
 - [egg-userrole](https://github.com/eggjs/egg-userrole) - user role plugin for egg ![](https://img.shields.io/github/stars/eggjs/egg-userrole.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/egg-userrole.svg?style=flat-square)
@@ -183,6 +186,14 @@
 
 - [egg-logview](https://github.com/eggjs/egg-logview) - 为开发环境提供一个日志查看器。 ![](https://img.shields.io/github/stars/eggjs/egg-logview.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/egg-logview.svg?style=flat-square)
 - [egg-neo4j](https://github.com/cemremengu/egg-neo4j) - Neo4j plugin for egg framework ![](https://img.shields.io/github/stars/cemremengu/egg-neo4j.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/egg-neo4j.svg?style=flat-square)
+
+#### 文档
+
+- [egg-swagger-doc](https://github.com/Yanshijie-EL/egg-swagger-doc) - swagger-ui for egg. ![](https://img.shields.io/github/stars/Yanshijie-EL/egg-swagger-doc.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/egg-swagger-doc.svg?style=flat-square)
+
+#### CI/CD/部署
+
+- [egg-ci](https://github.com/eggjs/egg-ci) - Auto gen ci config file. ![](https://img.shields.io/github/stars/eggjs/egg-ci.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/egg-ci.svg?style=flat-square)
 
 #### 其他
 
