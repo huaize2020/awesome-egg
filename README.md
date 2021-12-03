@@ -1,8 +1,11 @@
 > 同时推荐你查看我正在维护的其他仓库
-> - [awesome-koa](https://github.com/huaize2020/awesome-koa)
 > - [awesome-nodejs](https://github.com/huaize2020/awesome-nodejs)
+>   - [awesome-koa](https://github.com/huaize2020/awesome-koa)
+>   - [awesome-egg](https://github.com/huaize2020/awesome-egg)
+>   - [awesome-electron](https://github.com/electron-modules/awesome-electron)
 > - [awesome-frontend](https://github.com/huaize2020/awesome-frontend)
-> - [awesome-react](https://github.com/huaize2020/awesome-react)
+>   - [awesome-react](https://github.com/huaize2020/awesome-react)
+>   - [awesome-react-native](https://github.com/huaize2020/awesome-react-native)
 
 ## 目录
 
@@ -139,6 +142,7 @@
 
 - [egg-view-nunjucks](https://github.com/eggjs/egg-view-nunjucks) - Nunjucks view plugin for egg ![](https://img.shields.io/github/stars/eggjs/egg-view-nunjucks.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/egg-view-nunjucks.svg?style=flat-square)
 - [egg-view-ejs](https://github.com/eggjs/egg-view-ejs) - Egg view plugin for ejs. ![](https://img.shields.io/github/stars/eggjs/egg-view-ejs.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/egg-view-ejs.svg?style=flat-square)
+- [egg-view-assets](https://github.com/eggjs/egg-view-assets) - Manage frontend assets in development and production. ![](https://img.shields.io/github/stars/eggjs/egg-view-assets.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/egg-view-assets.svg?style=flat-square)
 - [egg-view-handlebars](https://github.com/eggjs/egg-view-handlebars) - Egg view plugin for handlebars ![](https://img.shields.io/github/stars/eggjs/egg-view-handlebars.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/egg-view-handlebars.svg?style=flat-square)
 
 #### 数据库
