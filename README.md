@@ -64,6 +64,7 @@
 #### 简介和评价
 
 - [Egg.js 1.0.0 正式发布 - 企业级 Node.js 框架](https://zhuanlan.zhihu.com/p/25860846)
+- [EggJS 的前世今生与未来](https://www.yuque.com/atian25/blog/egg-1to2to3)
 - [如何评价阿里开源的企业级 Node.js 框架 EggJS？](https://www.zhihu.com/question/50526101/answer/144952130)
 
 #### 教程
@@ -151,6 +152,7 @@
 - [egg-mongoose](https://github.com/eggjs/egg-mongoose) - mongoose plugin for egg ![](https://img.shields.io/github/stars/eggjs/egg-mongoose.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/egg-mongoose.svg?style=flat-square)
 - [egg-mysql](https://github.com/eggjs/egg-mysql) - MySQL plugin for egg. ![](https://img.shields.io/github/stars/eggjs/egg-mysql.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/egg-mysql.svg?style=flat-square)
 - [egg-mongo-native](https://github.com/brickyang/egg-mongo-native) - The native MongoDB driver for Egg.js ![](https://img.shields.io/github/stars/brickyang/egg-mongo-native.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/egg-mongo-native.svg?style=flat-square)
+- [egg-orm](https://github.com/eggjs/egg-orm) - egg-orm 是一个适用于 Egg 框架的数据模型层插件，egg-orm 的对象关系映射能力来自 Leoric。 ![](https://img.shields.io/github/stars/eggjs/egg-orm.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/egg-orm.svg?style=flat-square)
 
 #### 缓存
 
