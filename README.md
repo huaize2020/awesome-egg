@@ -94,6 +94,7 @@
 
 - [midway](https://github.com/midwayjs/midway) -  A Node.js Serverless Framework for front-end/full-stack developers. ![](https://img.shields.io/github/stars/midwayjs/midway.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/midway.svg?style=flat-square)
 - [beidou](https://github.com/alibaba/beidou) - Isomorphic framework for server-rendered React apps。![](https://img.shields.io/github/stars/alibaba/beidou.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/beidou.svg?style=flat-square)
+- [tegg](https://github.com/eggjs/tegg) - 强大的使用 TypeScript 的 egg. ![](https://img.shields.io/github/stars/eggjs/tegg.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/tegg.svg?style=flat-square)
 
 ### 脚手架
 
