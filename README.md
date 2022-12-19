@@ -188,6 +188,7 @@
 
 - [egg-apigw-tracer](https://github.com/inlym/egg-apigw-tracer) - 适配 API 网关的 HTTP 请求示踪器，用于 Egg.js 框架. ![](https://img.shields.io/github/stars/inlym/egg-apigw-tracer.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/egg-apigw-tracer.svg?style=flat-square)
 - [egg-tracer](https://github.com/eggjs/egg-tracer) - tracer plugin for egg. ![](https://img.shields.io/github/stars/eggjs/egg-tracer.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/egg-tracer.svg?style=flat-square)
+- [egg-opentracing](https://github.com/eggjs/egg-opentracing) - Implementation of opentracing in Egg.js. ![](https://img.shields.io/github/stars/eggjs/egg-opentracing.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/egg-opentracing.svg?style=flat-square)
 
 #### 日志
 
