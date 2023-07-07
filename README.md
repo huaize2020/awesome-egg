@@ -211,6 +211,7 @@
 - [egg-alinode](https://github.com/eggjs/egg-alinode) - alinode plugin for egg https://node.console.aliyun.com ![](https://img.shields.io/github/stars/eggjs/egg-alinode.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/egg-alinode.svg?style=flat-square)
 - [egg-bull](https://github.com/brickyang/egg-bull) - The fastest, most reliable, Redis-based queue for Egg.js ![](https://img.shields.io/github/stars/brickyang/egg-bull.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/egg-bull.svg?style=flat-square)
 - [egg-oss](https://github.com/eggjs/egg-oss) - aliyun oss plugin for egg ![](https://img.shields.io/github/stars/eggjs/egg-oss.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/egg-oss.svg?style=flat-square)
+- [egg-remote-config](https://github.com/atian25/egg-remote-config) - workaround for egg remote config ![](https://img.shields.io/github/stars/atian25/egg-remote-config.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/egg-remote-config.svg?style=flat-square)
 - [egg-zookeeper](https://github.com/eggjs/egg-zookeeper) - zookeeper plugin for egg ![](https://img.shields.io/github/stars/eggjs/egg-zookeeper.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/egg-zookeeper.svg?style=flat-square)
 - [egg-downloader](https://github.com/zzzs/egg-downloader) - download file plugin for egg ![](https://img.shields.io/github/stars/zzzs/egg-downloader.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/egg-downloader.svg?style=flat-square)
 
